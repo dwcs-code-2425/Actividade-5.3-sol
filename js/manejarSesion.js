@@ -117,7 +117,7 @@ function confirmLogout(event) {
 }
 
 function logoutCliente() {
-    console.log("loggin out...");
+    console.log("logging out...");
 
     if ((userId !== null) && (userId !== undefined)) {
         let logout_url = "?controller=Usuario&action=logout";
